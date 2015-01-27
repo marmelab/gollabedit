@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-size: 18px;
+    overflow: hidden;
+    height: 100%;
+}
+
+textarea {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #333;
+    width: calc(100% - 10em);
+    height: calc(100% - 4em);
+    padding: 2em 5em;
+}
+
+textarea[disabled="disabled"] {
+    color: #aaa;
+}
